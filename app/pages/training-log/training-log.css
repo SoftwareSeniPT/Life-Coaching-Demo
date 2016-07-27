@@ -1,0 +1,136 @@
+.trainingLog {}
+
+.trainingLogHero, .progressChart {
+    position: relative;
+    overflow: hidden;
+    padding-top: 71px;
+    color: rgba(255, 255, 255, 0.73);
+    text-align: center;
+    font-weight: 200;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+
+.progressChart {
+    padding: 30px 0;
+}
+
+.progressChart :global(.progress-chart) {
+    padding: 0;
+}
+
+.trainingLogHero :global(.blurred-bg), 
+.progressChart :global(.blurred-bg) {
+    z-index: -1;
+}
+
+.title {
+    font-size: 21px;
+    font-size: 2.1rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.calendar {
+    background-color: #fff;
+    padding: 15px;
+}
+
+
+/* training content */
+
+.listItemContent {
+    overflow: hidden;
+    max-height: 100px;
+    transition: max-height 0.3s;
+    background-color: #fff;
+}
+
+.listItemMedia {
+    width: 42%;
+    max-width: 160px;
+    float: left;
+    position: relative;
+}
+
+.listLabel {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    background: #fa2f62;
+    text-align: right;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 2px 20px;
+    top: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.itemDetails {
+    width: 58%;
+    float: left;
+    height: 100px;
+    padding: 12px;
+    font-size: 13px;
+    font-size: 1.3rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+}
+
+.desc {
+    font-size: 10px;
+    font-size: 1rem;
+}
+
+.itemMetaAction {
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    color: #bbb;
+    font-size: 9px;
+    font-size: 0.9rem;
+    padding: 15px 10px;
+    border-top: 1px solid rgba(187, 187, 187, 0.32);
+    border-bottom: 1px solid rgba(187, 187, 187, 0.32);
+    line-height: 1;
+}
+
+.itemMetaAction span {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.itemMetaAction > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu {
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.date {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+/* /// training content */

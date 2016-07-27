@@ -1,0 +1,83 @@
+.list {}
+
+.listItemHeaderTitle {
+    padding: 9px 0;
+}
+
+.listItemHeaderTitle i {
+    font-size: 17px;
+    font-size: 1.7rem;
+    color: #bbb;
+}
+
+.listItemHeaderTitle > * {
+    vertical-align: top;
+}
+
+.listItem {
+    transition: max-height 0.5s, padding 0.5s;
+    max-height: 100%;
+    overflow: hidden;
+    background: #fff
+}
+
+.listwrapper {
+    padding: 5px;
+    overflow: hidden;
+}
+
+.listVisible {}
+
+.listNotVisible {
+    max-height: 0;
+    padding: 0;
+}
+
+.list {
+    background: #fff;
+}
+
+.listItemHeader {
+    background-color: #f6f6f6;
+    text-align: center;
+    position: relative;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.selectView {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 9px 10px;
+}
+
+.selectView :global(.active) {
+    color: #BFBFBF;
+}
+
+.listItemHeader i {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin-right: 8px;
+    color: #505050;
+}
+
+.viewListStyle, .viewListStyle .listwrapper {
+    padding: 0;
+}
+
+.viewGridStyle :global(.list-item) {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    padding: 5px;
+}
+
+.viewGridStyle :global(.list-item) :global(.item-image) {
+    width: 100%;
+    padding-bottom: 60%;
+    height: auto;
+    max-width: none;
+}

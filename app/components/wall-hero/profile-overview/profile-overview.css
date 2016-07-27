@@ -1,0 +1,41 @@
+.profileOverview {
+    position: relative;
+    background-color: #25100f;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 35px;
+    z-index: 1;
+    max-height: 130px;
+}
+
+.profileImage {
+    width: 35%;
+    height: 130px;
+    background-size: cover;
+    background-position: center center;
+    max-width: 120px;
+    float: left;
+}
+
+.profileDetails {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.profileDetailsList {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+.profileDetailsList .heading {
+    color: #1DC371;
+    margin-right: 6px;
+    font-weight: 300;
+}

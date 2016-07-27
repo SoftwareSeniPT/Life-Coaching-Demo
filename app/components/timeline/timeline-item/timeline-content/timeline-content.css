@@ -1,0 +1,242 @@
+.timelineContent {}
+
+.timelineHeader {
+    position: relative;
+    padding-right: 20px;
+}
+
+.timelineHeader:before,
+.timelineHeader:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.timelineHeader:after {
+    clear: both;
+}
+
+.ellipsisMenu {
+    position: absolute;
+    right: -15px;
+    top: -12px;;
+    bottom: 0;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+.timelineImage {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+.userOnline,
+.userOffline {
+    position: relative;
+}
+
+.userOnline:before,
+.userOffline:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #26ff93;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.userOffline:before {
+    background-color: #ADADAD;
+}
+
+.timelineImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.timelineName {
+    font-weight: 600;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin-top: 10px;
+    color: #676767;
+    overflow: hidden;
+}
+
+:global(.timeline-item-type-forum-post).timelineName {
+    margin-top: 5px;
+}
+
+.timelineTimestamp {
+    font-size: 10px;
+    font-size: 1rem;
+    color: #BBB;
+    font-style: italic;
+    overflow: hidden;
+}
+
+.timelineBody {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: #9A9A9A;
+    padding: 10px 0;
+    padding-bottom: 0;
+}
+
+.timelineFooterIcon {
+    color: #59dede;
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin-right: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.timelineFooterIcon:after {
+    content: attr(data-count);
+    color: #808080;
+    font-style: normal;
+    font-size: 12px;
+    font-size: 1.2rem;
+    vertical-align: top;
+    line-height: 1;
+    margin-left: 5px;
+}
+
+.iframeVideo {
+    position: relative;
+    padding-bottom: 56.6%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 20px;
+}
+
+.iframeVideo iframe {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.forumTimestamp {
+    margin-top: 5px;
+}
+
+.forumTimestamp span {
+    vertical-align: top;
+    line-height: 1;
+    display: inline-block;
+    padding: 3px 1px;
+}
+
+.forumTimestampIcon {
+    color: #23d3d3;
+    font-size: 12px;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.forumTimestampLink,
+.readMore {
+    color: #7B7B7B;
+    font-weight: 600;
+}
+
+.activityMap {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+.activityMapImage {
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.activityInformation {
+    background: #111;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "roboto_condensedlight", sans-serif;
+    font-size: 12px;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+}
+
+.activityInformation span {
+    display: block;
+}
+
+.activityInformationValue {
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-family: "roboto_condensedbold", sans-serif;
+    line-height: 1;
+}
+
+.runningLengthAverage,
+.totalSteps {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 10px 30px;
+}
+
+.runningLengthAverage {
+    left: 0;
+}
+
+.runningPaceAverage {}
+
+.totalSteps {
+    right: 0;
+}
+
+/* Play button */
+.playButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+    background-size: cover;
+    background-position: center;
+}
+
+.playButton svg {
+    width: 70px;
+    display: inline-block;
+    margin: 0 auto;
+}

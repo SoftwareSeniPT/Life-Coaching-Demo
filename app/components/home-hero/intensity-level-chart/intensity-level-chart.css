@@ -1,0 +1,201 @@
+.intensityLevelChart {
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+    -webkit-animation: scale .6s;
+    animation: scale .6s;
+}
+
+.activityDetails {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-family: "roboto_condensedlight", sans-serif;
+    text-transform: uppercase;
+    color: #B5B5B5;
+    font-size: 0;
+    white-space: nowrap;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+    padding: 20px;
+}
+
+.detailsItemsWrapper {
+    overflow: hidden;
+}
+
+.detailsItems {
+    transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.detailsItem {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.detailsItem .goal {
+    margin-top: 10px;
+}
+
+.activityDetails span {
+    display: block;
+}
+
+.activityDetails .dots span {
+    display: inline-block;
+    margin: 0 2px;
+} 
+
+.total {
+    font-family: "roboto_condensedbold", sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    color: #fff;
+}
+
+.total span {
+    display: inline
+}
+
+.dots {
+    font-size: 7px;
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+
+.dots :global(.active) {
+    color: #fff;
+}
+
+.timeIndicator > span {
+    position: absolute;
+    padding: 5px;
+}
+
+.midnight {
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.noon {
+    bottom: 100%;
+    left: 0;
+    right: 0;
+}
+
+.time6pm {
+    left: 100%;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.time6am {
+    right: 100%;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.activityIcons > i {
+    position: absolute;
+}
+
+.timeIndicator {
+    font-family: "roboto_condensedlight", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 1.4rem;
+    color: #B1B1B1;
+}
+
+.activityIcons :global(.icon-1) {
+    right: 100%;
+    top: 50%;
+    margin-top: -41px;
+    margin-right: 6px;
+}
+
+.activityIcons :global(.icon) {
+    width: 25px;
+    height: 25px;
+    padding: 5px 0;
+    border-color: #808080;
+}
+
+.activityIcons :global(.icon-2) {
+    right: 100%;
+    top: 50%;
+    margin-top: -74px;
+    margin-right: -5px;
+}
+
+.activityIcons :global(.icon-3) {
+    right: 100%;
+    top: 50%;
+    margin-top: -102px;
+    margin-right: -27px;
+}
+
+.activityIcons :global(.icon-4) {
+    bottom: 100%;
+    left: 50%;
+    margin-left: 28px;
+}
+
+.activityIcons :global(.icon-5) {
+    left: 100%;
+    bottom: 50%;
+    margin-bottom: 16px;
+    margin-left: 7px;
+}
+
+.activityIcons :global(.icon-6) {
+    left: 100%;
+    top: 50%;
+    margin-top: 50px;
+    margin-left: -8px;
+    font-size: 9px;
+    font-size: 0.9rem;
+    padding: 6px 0;
+}
+
+@-webkit-keyframes scale {
+    from {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale {
+    from {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}

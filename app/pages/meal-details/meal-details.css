@@ -1,0 +1,164 @@
+.mealDetails {
+    background-color: #fff;
+    font-size: 13px;
+    font-size: 1.3rem;
+}
+
+.mealDetailsHero {
+    position: relative;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.63);
+    padding-top: 60px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+.mealDetailsHero :global(.star-rating) {
+    font-size: 11px;
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.mealDetailsHero :global(.blurred-bg) {
+    z-index: -1;
+}
+
+.title {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.subtitle {}
+
+.tags span {
+    text-decoration: underline;
+    font-style: italic;
+    margin: 0 5px;
+}
+
+.preparation span {
+    color: #fff;
+}
+
+.preparation > span {
+    margin: 0 5px;
+}
+
+.preparation strong {
+    color: #9dd976;
+}
+
+.mainImage {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+.desc {
+    text-align: center;
+    padding: 0 15px;
+    margin: 20px 0;
+}
+
+.bar {
+    background: #b977ff;
+    display: inline-block;
+    height: 15px;
+}
+
+.componentHeader {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.componentFooter {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #D0D0D0;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.component {
+    padding: 0 15px;
+    margin: 20px 0;
+}
+
+.macroFats .bar {
+    background-color: #f5ca54;
+}
+
+.macroCarbs .bar {
+    background-color: #46d2c1;
+}
+
+.macroProtein .bar {
+    background-color: #b977ff;
+}
+
+.addToList {
+    float: right;
+}
+
+.addToList > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.addToList > span, .footerLabel  {
+    padding: 6px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.addToListLabel {
+    margin-right: 5px;
+}
+
+.addToList :global(.icon) {
+    font-size: 25px;
+    font-size: 2.5rem;
+}
+
+.methodItem {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    color: #797979;
+}
+
+.methodItem:before {
+    content: attr(data-index);
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 2px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1;
+    padding: 2px 0;
+    color: #8BC161;
+    position: absolute;
+    top: 0;
+    left: 2px;
+    font-size: 11px;
+    font-size: 1.1rem;
+}
+
+.addRating {
+    background-color: #f6f6f6;
+    padding: 15px;
+}
+
+.addRating :global(.star-rating) {
+    display: inline-block;
+    margin-left: 10px;
+}

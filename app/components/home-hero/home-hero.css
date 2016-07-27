@@ -1,0 +1,13 @@
+.homeHero {
+    position: relative;
+    padding-top: 52px;
+    padding-bottom: 60px;
+    color: #fff;
+    background: #333;
+    text-align: center;
+}
+
+.homeHero :global(.blurred-bg) {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}

@@ -1,0 +1,31 @@
+.timelineComments {}
+
+.likeCount {
+    font-size: 11px;
+    font-size: 1.1rem;
+    color: #bbb;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.commentMenu {
+    font-size: 11px;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #827F7F;
+    padding-left: 40px;
+}
+
+.commentMenu span {
+    display: inline-block;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+
+.commentMenu span:last-child {
+    margin-right: 0;
+}
+
+.commentMenuActive {
+    color: #ccc
+}

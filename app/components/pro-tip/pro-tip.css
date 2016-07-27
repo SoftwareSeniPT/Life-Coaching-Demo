@@ -1,0 +1,45 @@
+.proTip {
+    background: #fff;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #8A8A8A;
+    padding: 15px 10px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: "roboto_condensedregular", sans-serif;
+    color: #333;
+    font-size: 11px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.title :global(.icon) {
+    font-size: 19px;
+    font-size: 1.9rem;
+    padding: 3px 0;
+}
+
+.title span {
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.readMore {
+    color: #111;
+    font-style: italic;
+    font-size: 11px;
+    font-size: 1.1rem;
+}

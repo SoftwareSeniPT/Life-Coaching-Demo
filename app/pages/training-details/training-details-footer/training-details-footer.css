@@ -1,0 +1,36 @@
+.trainingDetailsFooter {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.trainingDetailsFooter :global(.blurred-bg) {
+  z-index: -1;
+}
+
+.trainingDetailsFooterItem {
+  position: relative;
+  width: 80px;
+  margin: 20px auto;
+
+}
+
+.trainingDetailsFooterItemLabel {
+    position: absolute;
+    right: 100%;
+}
+
+.trainingDetailsFooterItemLabel span {
+    display: block;
+    white-space: nowrap;
+    font-size: 11px;
+    font-size: 1.1rem;
+    padding: 0 20px;
+}
+
+.trainingDetailsFooterItemText {
+  font-size: 30px;
+}

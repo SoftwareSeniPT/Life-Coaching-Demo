@@ -1,0 +1,15 @@
+.activityScreen {
+    overflow: hidden;
+    position: relative;
+    min-height: 100%;
+    padding-top: 52px;
+    color: #fff;
+}
+
+.activityScreen :global(.blurred-bg) {
+    z-index: -1;
+}
+
+.activityScreen :global(#header .wrapper) {
+    background: #111;
+}

@@ -1,0 +1,43 @@
+.profileOverview {
+    text-align: center;
+    position: relative;
+}
+
+.profileImage {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+    position: relative;
+    margin-top: -35px;
+    z-index: 101;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+:global(.is-on-top) .profileImage {
+    opacity: 1;
+}
+
+.profileImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.profileName,
+.profileActivity {
+    font-family: "roboto_condensedregular", sans-serif;
+}
+
+.profileName {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+.profileActivity {
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.45);
+}

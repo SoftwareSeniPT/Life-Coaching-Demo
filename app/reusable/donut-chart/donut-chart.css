@@ -1,0 +1,8 @@
+.donutChart {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+}

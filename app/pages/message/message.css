@@ -1,0 +1,153 @@
+.message {}
+
+.messageHero {
+    position: relative;
+    overflow: hidden;
+    padding-top: 71px;
+    color: rgba(255, 255, 255, 0.73);
+    text-align: center;
+    font-weight: 200;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+
+.messageHero :global(.blurred-bg) {
+    z-index: -1;
+}
+
+.title {
+    font-size: 21px;
+    font-size: 2.1rem;
+    margin-bottom: 5px;
+}
+
+.messageItem {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.messageContentItem {
+    padding: 10px 15px;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.messageRead {
+
+}
+
+.messageUnread {
+    background-color: #ddd;
+    border-bottom: 1px solid #CCCBCB;
+}
+
+/* Notif Pic */
+
+.messagePic {
+    float: left;
+    padding-right: 15px;
+}
+
+.messagePic > div {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+}
+
+
+/* Notif Text */
+
+.messageText {
+    overflow: hidden;
+    position: relative;
+    padding-right: 40px;
+}
+
+.messageTextPreview {
+    padding: 0 10px;
+    border-left: 3px solid #D8D8D8;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.userName {
+    font-weight: 600;
+}
+
+
+/* Notif action */
+
+.messageAction, .messageRemove {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px 15px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+}
+
+.messageAction > i {
+    font-size: 30px;
+    color: #bb4848;
+}
+
+/* Notif remove */
+.messageRemove {
+    background: #22D87E;
+    color: #fff;
+    font-size: 22px;
+    width: 70px;
+    text-align: center;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translateX(70px);
+            transform: translateX(70px);
+}
+
+.removeButtonOpened .messageContentItem {
+    -webkit-transform: translateX(-70px);
+            transform: translateX(-70px);
+}
+
+.removeButtonOpened .messageRemove {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);    
+}
+
+/* Notif type */
+
+.messagefollow .messageContentItem {
+    padding-right: 60px;
+}
+
+.subject, .name {
+    font-weight: 600;
+} 
+.name {} 
+.text {
+    color: #797979;
+} 
+.time {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

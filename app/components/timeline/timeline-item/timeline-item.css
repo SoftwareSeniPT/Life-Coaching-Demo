@@ -1,0 +1,19 @@
+.timelineItem {}
+
+.timelineContent {
+    background: #fff;
+    padding: 15px 20px;
+}
+
+.timelineComment {
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+}
+
+.timelineAction {
+    padding: 10px 20px;
+}
+
+.timelineItemTypeText {
+
+}

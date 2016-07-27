@@ -1,0 +1,45 @@
+:global(#header .icon),
+:global(#header .hamburger) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header {
+    text-align: right;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+:global(.navMenuOpened) {
+    z-index: 102;
+}
+
+.wrapper {
+    background-color: #111;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: relative;
+    z-index: 2;
+    transition: background 0.2s;
+}
+
+:global(.is-on-top) .wrapper {
+    background: transparent;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 11px 10px;
+}
+
+.notifIcon {
+    display: inline-block;
+    padding: 3px 0;
+}

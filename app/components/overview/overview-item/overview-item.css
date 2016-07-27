@@ -1,0 +1,148 @@
+.overviewItem {
+    overflow: hidden;
+    padding: 12px 0;
+}
+
+.sleepStats {
+    background: #12637f;
+}
+
+.currentWeather {
+    background: #fac763;
+}
+
+.dailyAffirmation {
+    background: #7cdada;
+}
+
+.title span,
+.title .icon {
+    background: #488195;
+}
+
+.currentWeather .title span,
+.currentWeather .title .icon {
+    background: #ffad4c;
+}
+
+.dailyAffirmation .title span,
+.dailyAffirmation .title .icon {
+    background: #33d3d2;
+}
+
+.sleepStats .title .icon {
+    font-size: 9px;
+    font-size: 0.9rem;
+    padding: 4px 0;
+}
+
+.left {
+    width: 45%;
+    float: left;
+    max-width: 140px;
+}
+
+.right {
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.circle {
+    height: 90px;
+    width: 90px;
+    font-size: 33px;
+    font-size: 3.3rem;
+    border: 2px solid rgba(255, 255, 255, 0.37);
+    border-radius: 50%;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1;
+    padding: 28px 0;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.currentWeather .circle .icon {
+    font-size: 51px;
+    font-size: 5.1rem;
+}
+
+.currentWeather .circle {
+    padding: 17px 0;
+}
+
+.title span {
+    display: inline-block;
+    padding: 1px 10px;
+    font-size: 11px;
+    font-size: 1.1rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 18px;
+    vertical-align: top;
+}
+
+.title {
+    white-space: nowrap;
+}
+
+.title .icon {
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px 0;
+    margin-left: 5px;
+}
+
+.currentWeatherDetails,
+.laterWeatherDetails {
+    width: 50%;
+    float: left;
+    font-size: 10px;
+    font-size: 1rem;
+    padding-right: 15px;
+}
+
+.weatherDegree {
+    font-size: 35px;
+    font-size: 3.5rem;
+    font-weight: 200;
+    line-height: 1;
+    margin: 3px 0;
+}
+
+.location {
+    margin-bottom: 15px;
+}
+
+.location span {
+    margin: 0 5px;
+}
+
+.background {
+    padding-bottom: 100%;
+    background-size: cover;
+    margin-top: -30px;
+    margin-bottom: -15px;
+}
+
+.detailsLlink {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+.details {
+    margin-top: 33px;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+.icon-edit {
+    font-size: 0.8em;
+}

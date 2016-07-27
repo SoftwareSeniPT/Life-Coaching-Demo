@@ -1,0 +1,28 @@
+.featuredList {
+    padding: 0 10px 5px 10px;
+    text-align: center;
+}
+
+.image {
+    padding-bottom: 70%;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 -10px;
+}
+
+.title {
+    font-size: 10px;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.title :global(.icon) {
+    margin-right: 5px;
+}
+
+.timestamp {
+    font-size: 9px;
+    font-size: 0.9rem;
+    color: #B9B9B9;
+}

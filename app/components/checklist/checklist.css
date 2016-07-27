@@ -1,0 +1,41 @@
+.checklist {
+    padding: 0 15px;
+}
+
+.checklistHeader {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.checklistItem {
+    color: #797979;
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.checklistItem :global(.icon) {
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-right: 7px;
+    color: #8BC161;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.checklistItem > span > span {
+    padding: 3px 0;
+}
+
+.checklistItem > span > .remove {
+    font-size: 1rem;
+    margin-left: 5px;
+    vertical-align: bottom;
+    color: #DC93A6;
+}
+.checklistItem > span > .remove i {
+    font-size: 1.4rem
+}

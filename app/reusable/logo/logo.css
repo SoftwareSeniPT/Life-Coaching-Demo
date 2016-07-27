@@ -1,0 +1,25 @@
+.logo {
+    cursor: pointer;
+}
+
+.logo-header .svg {
+    height: 31px;
+}
+
+.logo-content {
+    text-align: center;
+}
+
+.logo-content .svg {
+    height: 50px;
+}
+
+.logoText {
+    font-family: 'roboto_condensedlight', sans-serif;
+    font-size: 30px;
+    font-size: 3rem;
+}
+
+.bold {
+    font-family: 'roboto_condensedbold', sans-serif;
+}

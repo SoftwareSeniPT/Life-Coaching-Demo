@@ -1,0 +1,70 @@
+.timelineCommentItem {
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.timelineCommentItem:last-child {
+    margin-bottom: 0;
+}
+
+.commentHeader {
+    overflow: hidden;
+}
+
+.commentImage {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+}
+
+.commentImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.commentName {
+    font-weight: 600;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin-top: 5px;
+    color: #676767;
+}
+
+.commentTimestamp {
+    font-size: 10px;
+    font-size: 1rem;
+    color: #BBB;
+    font-style: italic;
+}
+
+.commentBody {
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: #9A9A9A;
+    padding: 5px 0;
+}
+
+.commentFooter {}
+
+.commentFooterIcon {
+    color: #59dede;
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin-right: 15px;
+}
+
+.commentFooterIcon:after {
+    content: attr(data-count);
+    color: #808080;
+    font-style: normal;
+    font-size: 12px;
+    font-size: 1.2rem;
+    vertical-align: top;
+    line-height: 1;
+    margin-left: 5px;
+}

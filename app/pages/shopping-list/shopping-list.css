@@ -1,0 +1,109 @@
+.shoppingList {
+    padding-bottom: 20px;
+}
+
+.shoppingListHero {
+    position: relative;
+    overflow: hidden;
+    padding-top: 52px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.76);
+    font-weight: 300;
+    font-size: 1.2rem
+}
+
+.shoppingListHero :global(.blurred-bg) {
+    z-index: -1;
+}
+
+.heroTitle {
+    font-size: 21px;
+    font-size: 2.1rem;
+}
+
+.heroDesc {
+    margin: 5px 0;
+}
+
+.heroDayLabel {
+    color: #88a965;
+}
+
+.shoppingList :global(.checklist) {
+    margin-top: 30px;
+}
+
+.addItem {
+    white-space: nowrap;
+    position: relative;
+}
+
+.addItem input[type=text],
+.addItem i {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.addItem input[type=text] {
+    background-color: #DCDCDC;
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    font-style: italic;
+    width: 100%;
+}
+
+.addItem i {
+    font-size: 30px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 5px;
+    color: #bbb;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 100%;
+}
+
+.buttons, .addItem {
+    max-width: 70%;
+    margin: 15px auto;
+}
+
+.buttons :global(.button) {
+    width: 100%;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 11px 30px;
+    margin: 7px 0;
+    text-align: center;
+}
+
+.shoppingListDesc {
+    text-align: center;
+    padding: 25px;
+}
+
+.selectAll {
+    background: #E0E0E0;
+    padding: 2px 15px;
+    color: #908E8E;
+}
+
+.selectAll * {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.selectAll i {
+    font-size: 30px;
+}
+
+.selectAll span {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 5px;  
+}

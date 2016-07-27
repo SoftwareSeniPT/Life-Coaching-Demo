@@ -1,0 +1,68 @@
+.activityDetails {
+    overflow: hidden;
+    font-family: 'roboto_condensedlight', sans-serif;
+    font-size: 13px;
+    font-size: 1.3rem;
+    position: relative;
+    border-top: 1px solid rgba(221, 221, 221, 0.23);
+    border-bottom: 1px solid rgba(221, 221, 221, 0.23);
+    margin-top: 15px;
+}
+
+.activityItem {
+    width: 50%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.23);
+}
+
+.activityDetails:after {
+    content: "";
+    width: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    background: rgba(221, 221, 221, 0.23);
+}
+
+.value {
+    font-family: 'roboto_condensedbold', sans-serif;
+    font-size: 21px;
+    font-size: 2.1rem;
+}
+
+.activityItem i {
+    font-size: 23px;
+    font-size: 2.3rem;
+}
+
+.label {
+    color: rgba(255, 255, 255, 0.52);
+}
+
+.heartRate i {
+    color: #03fe93;
+}
+
+.steps i {
+    color: #ff2b65;
+}
+
+.mood i {
+    color: #75dedc;
+}
+
+.energy i {
+    color: #cfff00;
+}
+
+.water i {
+    color: #4887df;
+}
+
+.sleep i {
+    color: #4a8b97;
+}

@@ -1,0 +1,89 @@
+.suggestedChallenge {
+    background: #fff;
+    font-family: "roboto_condensedregular", sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.title {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.title .icon {
+    color: #ff285f;
+    font-size: 21px;
+    font-size: 2.1rem;
+}
+
+.title > * {
+    vertical-align: top;
+    line-height: 1;
+}
+
+.title > span {
+    display: inline-block;
+    padding: 5px 7px;
+}
+
+.content {
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-family: "roboto_condensedlight", sans-serif;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.challengeType {
+    font-size: 11px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.content > * {
+    position: relative;
+    z-index: 2;
+}
+
+.content:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.41);
+    z-index: 1;
+}
+
+.challengeName {
+    font-size: 25px;
+    font-size: 2.5rem;
+    margin: 5px 0;
+}
+
+.challengeDesc {
+    font-family: "averta", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.challengeButton button {
+    outline: 0;
+    border: 0;
+    background-color: #ff285f;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1;
+    padding: 12px 20px;
+    margin-top: 20px;
+}
