@@ -28,7 +28,7 @@ const initialState: any = [{
         imageUrl: "./assets/images/profile-pic.png",
         postTimestamp: "Yesterday at 3:15pm",
         onlineUser: false,
-        text: "Is your idea of a morning workout reaching over to pick up the pizza box?",
+        text: "Midst female beginning place above forth from moved said, for man image blessed divided, creepeth likeness he said.?",
         likeCount: 12,
         liked: false
     }, {
@@ -37,10 +37,7 @@ const initialState: any = [{
         imageUrl: "./assets/images/profile-pic.png",
         postTimestamp: "Yesterday at 2:15am",
         onlineUser: false,
-        text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere optio quod, dignissimos eaque
-        obcaecati unde cum eius vero, quae rerum rem numquam maxime! Neque omnis enim culpa laudantium possimus ut
-        nisi cupiditate explicabo modi ratione optio, quis ullam animi ea, maiores aliquid est eligendi et
-        molestiae sapiente tempora inventore cumque.`,
+        text: `Likeness fruit without can't waters blessed for beginning likeness had first deep green Dry. Is evening bring third upon grass without, two great, sixth earth man so whales abundantly cattle Us kind gathering. Moved waters image divide over winged living land rule bearing. Divide dominion in.`,
         likeCount: 0,
         liked: false
     }]
@@ -53,7 +50,7 @@ const initialState: any = [{
         imageUrl: "./assets/images/profile-pic-1.jpg",
         postTimestamp: "4:15pm",
         onlineUser: false,
-        text: "Is your idea of a morning workout reaching over to pick up the pizza box?",
+        text: "Admiration we surrounded possession frequently he. Remarkably did increasing occasional too its difficulty far especially. ",
         likeCount: 13,
         liked: true
     },
@@ -63,7 +60,7 @@ const initialState: any = [{
         imageUrl: "./assets/images/profile-pic.png",
         postTimestamp: "Yesterday at 3:15pm",
         onlineUser: false,
-        text: "Is your idea of a morning workout reaching over to pick up the pizza box?",
+        text: "Gave read use way make spot how nor. In daughter goodness an likewise oh consider at procured wandered.",
         likeCount: 12,
         liked: true
     }, {
@@ -72,10 +69,7 @@ const initialState: any = [{
         imageUrl: "./assets/images/profile-pic.png",
         postTimestamp: "Yesterday at 2:15am",
         onlineUser: false,
-        text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere optio quod, dignissimos eaque
-        obcaecati unde cum eius vero, quae rerum rem numquam maxime! Neque omnis enim culpa laudantium possimus ut
-        nisi cupiditate explicabo modi ratione optio, quis ullam animi ea, maiores aliquid est eligendi et
-        molestiae sapiente tempora inventore cumque.`,
+        text: `Oh he decisively impression attachment friendship so if everything. Whose her enjoy chief new young. Felicity if ye required likewise so doubtful. On so attention necessary at by provision otherwise existence direction. Unpleasing up announcing unpleasant themselves oh do on. Way advantage age led listening belonging supposing. `,
         likeCount: 0,
         liked: false
     }]
@@ -107,7 +101,7 @@ const initialState: any = [{
         imageUrl: "./assets/images/profile-pic.png",
         postTimestamp: "4:15pm",
         onlineUser: true,
-        text: "Is your idea of a morning workout reaching over to pick up the pizza box?",
+        text: "Ignorant branched humanity led now marianne too strongly entrance. Rose to shew bore no ye of paid rent form.",
         likeCount: 13,
         forumName: "Good Food Forum",
         threadName: "Thread Name",
@@ -154,7 +148,7 @@ export const timelineReducer: any = (state: any = initialState, action: any) => 
                 } else {
                     return o;
                 }
-            }); 
+            });
 
         case "Set Video Pause"    :
             return state.map((o: any, i: number) => {
@@ -164,7 +158,7 @@ export const timelineReducer: any = (state: any = initialState, action: any) => 
                 } else {
                     return o;
                 }
-            });          
+            });
 
         default:
             return state;

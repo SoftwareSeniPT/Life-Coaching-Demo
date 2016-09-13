@@ -1,6 +1,6 @@
 /*
  * Import -------------------
- */ 
+ */
 
 // React
 import * as React from "react";
@@ -35,9 +35,7 @@ export class ProTip extends React.Component<IProTip, {}> {
                 </div>
                 <div className={style.text}>
                     <span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Expedita adipisci neque autem repudiandae aperiam iusto dignissimos 
-                        laborum magnam officia atque.
+                        Judge why maids led sir whose guest drift her point. Him comparison especially friendship was who sufficient attachment favourable how. Luckily but minutes ask picture man perhaps are inhabit. How her good all sang more why. 
                     </span>
                     <span className={style.readMore}>
                         ... Read More

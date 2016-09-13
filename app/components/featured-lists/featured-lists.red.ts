@@ -4,19 +4,19 @@
 
 const initialState: any = [{
     id: 1,
-    imgUrl: "./assets/images/profile-pic.png",
+    imgUrl: "./assets/images/pexels-photo-102129-tiny.jpeg",
     title: "At Home HITR",
     iconName: "pitch",
     timeStamp: "1 hour",
     iconBackground: "#ff2e62"
 }, {
     id: 2,
-    imgUrl: "./assets/images/profile-pic.png",
-    title: "Message from Luke",
+    imgUrl: "./assets/images/pexels-photo-139829-tiny.jpg",
+    title: "Message to Luke",
     timeStamp: "10 mins ago"
 }, {
     id: 3,
-    imgUrl: "./assets/images/profile-pic.png",
+    imgUrl: "./assets/images/money-card-business-credit-card-50987-tiny.jpg",
     title: "Crispy Chicken",
     iconName: "pencil",
     timeStamp: "6pm",
